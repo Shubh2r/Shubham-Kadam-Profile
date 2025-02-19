@@ -3,101 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shubham Sandip Kadam - Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Shubham Kadam - Landing Page</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: red;
+            padding: 20px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-top: 10px;
+        }
+
+        h1, h2 {
+            color: white;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            color: white;
+            background-color: black;
+            border: 2px solid white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: black;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: red;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Shubham Sandip Kadam</h1>
-        <p>HR Trainer | Navi Mumbai</p>
+        <div class="profile">
+            <img src="your-photo.jpg" alt="Shubham Kadam">
+            <h1>Shubham Kadam</h1>
+            <p>Human Resource Trainer | HR Management | Automation</p>
+        </div>
+        <div class="buttons">
+            <a href="tel:+919594425392" class="btn"><i class="fas fa-phone"></i> Call</a>
+            <a href="sms:+919594425392" class="btn"><i class="fas fa-comment"></i> Message</a>
+            <a href="mailto:shubhamkadam3am@gmail.com" class="btn"><i class="fas fa-envelope"></i> Email</a>
+            <a href="#" onclick="showAddress()" class="btn"><i class="fas fa-map-marker-alt"></i> Location</a>
+        </div>
+        <p id="address" style="display:none;">Navi Mumbai, Panvel, Khanda Colony, Umiya CHS, A-Wing, 303, 410206, Maharashtra, India</p>
     </header>
     
     <section id="about">
         <h2>About Me</h2>
-        <p>4 + Years of Experience in Human Resource and Internal
-Management. Adaptive with changing environment and
-requirements. Focused into automation and new technologies in
-market. Proven track record of Hiring, Training and retaining
-candidates with 92% accuracy. Especially during peak times when
-company is struggling with workforce and internal transfers. Go
-getter, Individual as well as team player. More kind of analyst and
-decision maker..</p>
+        <p>4+ years of experience in Human Resource and Internal Management. Skilled in automation, process optimization, and training with a proven track record in hiring and retention.</p>
     </section>
     
     <section id="skills">
-        <h2>Skills</h2>
+        <h2>Key Skills</h2>
         <ul>
-            <li>analytical skills</li>
-            <li>process inspection</li>
-            <li>process development</li>
+            <li>Analytical Skills</li>
+            <li>Process Development</li>
+            <li>HR Management</li>
+            <li>Automation</li>
+            <li>Team Handling</li>
+            <li>Creative Thinking</li>
         </ul>
     </section>
     
     <section id="experience">
-        <h2>Experience</h2>
-        <p>Jul 2023 - Present
-Human Resource Trainer
-Econship
-• Give Induction training to new joinee.
-• Train New joinee as per their role and give departmentwise training.
-• Define Roles and Responsibilities of new joinee
-• Define Training structure of new joinees and track their performance.
-• Document training documents and trainees progress reports.
-• Take regular assessments of trainees.
-• Create training programs as per need and keep developing.
-• Stay Updated on process changes and updates.
-• Create and modify training materials.
-• Setting performance benchmarks and KPI's
-• Shaping and overlooking HR Department.
-• Align HR Strategies with business goal.
-• Ensuring company policies aligns with labour laws
-• Resolving internal conflicts and grievances
-• Overseeing recruitment strategies and attract top talent.
-• Leveraged HR Tech solutions for operational efficiency.
-• Lead HR's role in mergers, acquisitions, and restructuring.
-
-May 2020 - Jun 2023
-Cluster Human Resource Manager
-Aayushman Medicals
-Counter Sales Executive:
-(May 2020 - October 2020)
-• Handel counter sales and Cash box
-• Assist customers and provide them with the medicines as per
-prescription.
-• Manage Inventory and follow FIFO.
-
-Store Manager:
-(November 2020 - March 2021)
-• Manage the overall operations of 3 medical stores.
-• Improve medical sales, Ensure proper processes are followed.
-• Tie-ups with medical practitioners improve overall revenue.
-• Manage Relations with Vendors and partners.
-• Resolve internal and external complaints and grievances.
-• Handel Vendor's and employees payments and proper tax filing.
-• Ensure proper documentation of stores and legal bindings.
-
-HR Manager Cluster:
-(April 2021 - June 2023)
-• Create Recruitment plans and onboard new joinees.
-• Provide hands on training to new joinee of medivision gold.
-• Create HRMS and implement it in all branches.
-• Manage HRMS efficiently and keep it updating.
-• Handel overall recruitment, Training and Complaints redressal of all
-branches.
-• Ensure labour laws are followed and Handel Posh complaints.
-• Create HR Policies and implement.
-• Co-ordinate with Owners and provide detailed updates.
-• Train and create more leaders around.</p>
+        <h2>Work Experience</h2>
+        <h3>Human Resource Trainer - Econship (Jul 2023 - Present)</h3>
+        <ul>
+            <li>Conduct induction and role-specific training for new hires.</li>
+            <li>Define training structures and track trainee performance.</li>
+            <li>Develop training programs and create HR policies.</li>
+        </ul>
+        
+        <h3>Cluster Human Resource Manager - Aayushman Medicals (2020 - 2023)</h3>
+        <ul>
+            <li>Handled recruitment, training, and grievance redressal.</li>
+            <li>Developed and implemented HRMS systems.</li>
+            <li>Managed internal conflict resolution and compliance.</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Online LMS:</strong> Created a fully automated Learning Management System for company-wide training.</li>
+            <li><strong>Inventory Tracker:</strong> Developed a system to track in-out data of containers in real-time.</li>
+            <li><strong>KPI Automation:</strong> Built an automated KPI tracking system for employee performance monitoring.</li>
+            <li><strong>Outstanding Tracker:</strong> Automated tracking and follow-up system for outstanding invoices.</li>
+            <li><strong>HRMS:</strong> Designed an internal HRM system with payroll automation using Google Sheets and APIs.</li>
+        </ul>
     </section>
     
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: shubhamkadam3am@gmail.com</p>
+        <p>Email: <a href="mailto:shubhamkadam3am@gmail.com">shubhamkadam3am@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/yourgithub" target="_blank">yourgithub</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/yourlinkedin" target="_blank">yourlinkedin</a></p>
     </section>
     
     <footer>
-        <p>&copy; 2025 Shubham Sandip Kadam</p>
+        <p>&copy; 2025 Shubham Kadam</p>
     </footer>
+
+    <script>
+        function showAddress() {
+            document.getElementById('address').style.display = 'block';
+        }
+    </script>
 </body>
 </html>
