@@ -28,28 +28,34 @@
             margin-top: 10px;
         }
 
-        h1, h2, p {
-    color: white;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-}
+        h1, h2 {
+            color: white;
+            text-shadow: 2px 2px 4px black;
+        }
 
-        .buttons {
+        .icon-buttons {
+            display: flex;
+            justify-content: center;
             margin-top: 20px;
         }
 
-        .btn {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
-            color: white;
+        .icon-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
             background-color: black;
             border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-decoration: none;
-            font-size: 16px;
+            color: white;
+            font-size: 24px;
+            margin: 10px;
             transition: 0.3s;
         }
 
-        .btn:hover {
+        .icon-btn:hover {
             background-color: white;
             color: black;
         }
@@ -77,11 +83,11 @@
             <h1>Shubham Kadam</h1>
             <p>Human Resource Trainer | HR Management | Automation</p>
         </div>
-        <div class="buttons">
-            <a href="tel:+919594425392" class="btn"><i class="fas fa-phone"></i> Call</a>
-            <a href="sms:+919594425392" class="btn"><i class="fas fa-comment"></i> Message</a>
-            <a href="mailto:shubhamkadam3am@gmail.com" class="btn"><i class="fas fa-envelope"></i> Email</a>
-            <a href="#" onclick="showAddress()" class="btn"><i class="fas fa-map-marker-alt"></i> Location</a>
+        <div class="icon-buttons">
+            <a href="tel:+919594425392" class="icon-btn"><i class="fas fa-phone"></i></a>
+            <a href="sms:+919594425392" class="icon-btn"><i class="fas fa-comment"></i></a>
+            <a href="mailto:shubhamkadam3am@gmail.com" class="icon-btn"><i class="fas fa-envelope"></i></a>
+            <a href="#" onclick="showAddress()" class="icon-btn"><i class="fas fa-map-marker-alt"></i></a>
         </div>
         <p id="address" style="display:none;">Navi Mumbai, Panvel, Khanda Colony, Umiya CHS, A-Wing, 303, 410206, Maharashtra, India</p>
     </header>
